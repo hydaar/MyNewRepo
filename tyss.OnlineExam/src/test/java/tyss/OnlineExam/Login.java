@@ -18,6 +18,10 @@ public class Login extends BaseClass {
 		String quiz = excelUtility.getDataFromExcel("Quiz", 13, 1);
 		System.out.println("modidief for GITHUB");
 		System.out.println("modidief f33333");
+		System.out.println("modidief for GITHUB");
+		System.out.println("modidief f33333");System.out.println("modidief for GITHUB");
+		System.out.println("modidief f33333");
+		
 		
 		driver.findElement(By.xpath("//td[text()='"+quiz+"']/ancestor::tr/td[6]")).click();
 		String cu = webdriverUtility.fetchCurrentUrl();
