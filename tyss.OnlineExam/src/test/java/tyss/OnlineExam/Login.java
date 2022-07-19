@@ -16,6 +16,7 @@ public class Login extends BaseClass {
 		
 		StartOrRestartPage startOrRestartPage = new StartOrRestartPage(driver);
 		String quiz = excelUtility.getDataFromExcel("Quiz", 13, 1);
+		System.out.println("modidief for GITHUB");
 		
 		
 		driver.findElement(By.xpath("//td[text()='"+quiz+"']/ancestor::tr/td[6]")).click();
